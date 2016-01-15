@@ -21,7 +21,8 @@
   font-weight: bold;
   color: #fff;
   float: left;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 1em; }
   .prev:hover,
   .next:hover {
     transition: .2s;
