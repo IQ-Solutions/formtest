@@ -61,6 +61,13 @@ label {
     label.form-label span {
       font-weight: normal; }
 
+.q-progress {
+  position: absolute;
+  right: 3%;
+  font-weight: bold;
+  font-size: .7em;
+  top: 1.2em; }
+
 .inline-swap .form-row {
   display: none;
   padding: 1.25em; }

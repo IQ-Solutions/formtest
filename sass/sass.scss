@@ -78,6 +78,15 @@ label {
   }
 }
 
+.q-progress{
+  position: absolute;
+  right: 3%;
+  font-weight: bold;
+  font-size: .7em;
+  top: 1.2em;
+}
+
+
 .inline-swap{
   .form-row{
     display:none;
