@@ -4,7 +4,6 @@
     <list default="true" id="ee39b449-112c-447d-ae11-be4fc134535b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass.css" afterPath="$PROJECT_DIR$/css/sass.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inline-swap.html" afterPath="$PROJECT_DIR$/inline-swap.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/sass.scss" afterPath="$PROJECT_DIR$/sass/sass.scss" />
     </list>
     <ignored path="untitled.iws" />
@@ -63,7 +62,7 @@
             <entry file="file://$PROJECT_DIR$/sass/sass.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.8097015">
-                  <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+                  <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -331,7 +330,7 @@
     <entry file="file://$PROJECT_DIR$/sass/sass.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8097015">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding />
         </state>
       </provider>
