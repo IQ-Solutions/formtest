@@ -16,7 +16,14 @@
   font-size: .7em;
   font-weight: bold;
   color: #fff;
-  float: left; }
+  float: left;
+  cursor: pointer; }
+  .prev:hover,
+  .next:hover {
+    background-color: #2192b0; }
+  .prev:active,
+  .next:active {
+    background-color: #8a66b0; }
 
 .next {
   float: right; }
@@ -33,15 +40,17 @@ body {
 h2 {
   font-weight: bold;
   margin-bottom: 1em;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  color: #004a9a; }
 
-.inline-swap label.form-label {
+label.form-label {
   font-weight: bold;
   font-size: 1.3em;
   line-height: 1.2;
   padding: 0 .2em; }
-  .inline-swap label.form-label span {
+  label.form-label span {
     font-weight: normal; }
+
 .inline-swap .form-row {
   display: none;
   padding: 1.25em; }

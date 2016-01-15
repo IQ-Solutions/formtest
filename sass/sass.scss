@@ -18,6 +18,15 @@
   font-weight:bold;
   color:#fff;
   float:left;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #2192b0;
+  }
+
+  &:active{
+    background-color: #8a66b0;
+  }
 }
 
 .next{
@@ -41,20 +50,22 @@ h2{
   font-weight:bold;
   margin-bottom:1em;
   font-size:1.5em;
+  color: #004a9a;
+}
+
+label {
+  &.form-label {
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.2;
+    padding: 0 .2em;
+    span {
+      font-weight: normal;
+    }
+  }
 }
 
 .inline-swap{
-  label{
-    &.form-label{
-      font-weight:bold;
-      font-size:1.3em;
-      line-height:1.2;
-      padding:0 .2em;
-      span{
-        font-weight:normal;
-      }
-    }
-  }
   .form-row{
     display:none;
     padding:1.25em;
