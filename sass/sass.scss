@@ -7,6 +7,14 @@
   opacity:1;
 }
 
+//radio options
+.col-sm-3 {
+  &:hover{
+    transition:.2s;
+    background: #d5dfe9;
+  }
+}
+
 .prev,
 .next{
   background-color:#1f7e9a;
@@ -21,10 +29,12 @@
   cursor: pointer;
 
   &:hover{
+    transition:.2s;
     background-color: #2192b0;
   }
 
   &:active{
+    transition:.2s;
     background-color: #8a66b0;
   }
 }
