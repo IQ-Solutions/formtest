@@ -49,13 +49,15 @@ h2 {
   font-size: 1.5em;
   color: #004a9a; }
 
-label.form-label {
-  font-weight: bold;
-  font-size: 1.3em;
-  line-height: 1.2;
-  padding: 0 .2em; }
-  label.form-label span {
-    font-weight: normal; }
+label {
+  margin-bottom: 0; }
+  label.form-label {
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.2;
+    padding: 0 .2em; }
+    label.form-label span {
+      font-weight: normal; }
 
 .inline-swap .form-row {
   display: none;
