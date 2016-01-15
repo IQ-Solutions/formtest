@@ -51,6 +51,7 @@ h2 {
   color: #004a9a; }
 
 label {
+  cursor: pointer;
   margin-bottom: 0; }
   label.form-label {
     font-weight: bold;
