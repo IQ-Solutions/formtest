@@ -3,7 +3,8 @@
   margin: 0 0 1em 0;
   padding: .5em;
   /* offset-x | offset-y | blur-radius | color */
-  box-shadow: 1px 1px 5px #2b2d2f; }
+  box-shadow: 1px 1px 5px #2b2d2f;
+  opacity: 1; }
 
 .prev,
 .next {

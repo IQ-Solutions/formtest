@@ -7,7 +7,11 @@ $(document).ready(function() {
         var rownext = $(this).parent();
 
         rownext.slideToggle();
-        rownext.next(".form-row").removeClass("gray", 1000);
+        rownext.next(".form-row").animate({
+                                        opacity: 1
+                                    }, 300, function() {
+                                        $(this).removeClass("gray");
+                                    });
 
     });
 
@@ -15,7 +19,11 @@ $(document).ready(function() {
         var rowpar = $(this).parent(".form-row");
 
         rowpar.prev(".form-row").slideToggle();
-        rowpar.addClass("gray", 1000);
+        rowpar.animate({
+                    opacity:.2
+                }, 300, function() {
+                    $(this).addClass("gray");
+                });
 
     });
 
