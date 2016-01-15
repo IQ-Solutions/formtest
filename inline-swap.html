@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/inline-swap.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="js/tether.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sass.css" />
+</head>
+<body>
+<div class="container inline-swap">
+    <form>
+        <div class="form-row col-md-8 col-md-offset-2">
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Marijuana</label></div>
+            <div class="col-sm-3"><label for="mj-daily">Daily</label> <input id="mj-daily" type="radio" name="marijuana" value="daily"/></div>
+            <div class="col-sm-3"><label for="mj-weekly">Weekly</label> <input id="mj-weekly" type="radio" name="marijuana" value="weekly"/></div>
+            <div class="col-sm-3"><label for="mj-monthly">Monthly</label> <input id="mj-monthly" type="radio" name="marijuana" value="weekly"/></div>
+            <div class="col-sm-3"><label for="mj-never">Never</label> <input id="mj-never" type="radio" name="marijuana" value="never" checked/></div>
+            <div class="next">Next Question</div>
+        </div>
+        <div class="form-row col-md-8 col-md-offset-2" >
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Alcohol</label></div>
+            <div class="col-sm-3"><label for="cn-daily">Daily</label> <input id="cn-daily" type="radio" name="cocaine" value="daily"/></div>
+            <div class="col-sm-3"><label for="cn-weekly">Weekly</label> <input id="cn-weekly" type="radio" name="cocaine" value="weekly"/></div>
+            <div class="col-sm-3"><label for="cn-monthly">Monthly</label> <input id="cn-monthly" type="radio" name="cocaine" value="weekly"/></div>
+            <div class="col-sm-3"><label for="cn-never">Never</label> <input id="cn-never" type="radio" name="cocaine" value="never" checked/></div>
+            <div class="prev">Previous Question</div><div class="next">Next Question</div>
+        </div>
+        <div class="form-row col-md-8 col-md-offset-2" >
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Tobacco</label></div>
+            <div class="col-sm-3"><label for="t-daily">Daily</label> <input     id="t-daily" type="radio" ntme="tobacco" value="daily"/></div>
+            <div class="col-sm-3"><label for="t-weekly">Weekly</label> <input   id="t-weekly" type="radio" name="tobacco" value="weekly"/></div>
+            <div class="col-sm-3"><label for="t-monthly">Monthly</label> <input id="t-monthly" type="radio" name="tobacco" value="weekly"/></div>
+            <div class="col-sm-3"><label for="t-never">Never</label> <input     id="t-never" type="radio" name="tobacco" value="never" checked/></div>
+            <div class="prev">Previous Question</div><div class="next">Next Question</div>
+        </div>
+        <div class="form-row col-md-8 col-md-offset-2" >
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Prescription drugs that were not prescribed for you (such as pain medication or Adderall)</label></div>
+            <div class="col-sm-3"><label for="p-daily">Daily</label> <input     id="p-daily" type="radio" name="presc" value="daily"/></div>
+            <div class="col-sm-3"><label for="p-weekly">Weekly</label> <input   id="p-weekly" type="radio" name="presc" value="weekly"/></div>
+            <div class="col-sm-3"><label for="p-monthly">Monthly</label> <input id="p-monthly" type="radio" name="presc" value="weekly"/></div>
+            <div class="col-sm-3"><label for="p-never">Never</label> <input     id="p-never" type="radio" name="presc" value="never" checked/></div>
+            <div class="prev">Previous Question</div><div class="next">Next Question</div>
+        </div>
+        <div class="form-row col-md-8 col-md-offset-2" >
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Illegal drugs (such as cocaine or Ecstasy)</label></div>
+            <div class="col-sm-3"><label for="ce-daily">Daily</label> <input     id="ce-daily" type="radio" name="coke" value="daily"/></div>
+            <div class="col-sm-3"><label for="ce-weekly">Weekly</label> <input   id="ce-weekly" type="radio" name="coke" value="weekly"/></div>
+            <div class="col-sm-3"><label for="ce-monthly">Monthly</label> <input id="ce-monthly" type="radio" name="coke" value="weekly"/></div>
+            <div class="col-sm-3"><label for="ce-never">Never</label> <input     id="ce-never" type="radio" name="coke" value="never" checked/></div>
+            <div class="prev">Previous Question</div><div class="next">Next Question</div>
+        </div>
+        <div class="form-row col-md-8 col-md-offset-2" >
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Inhalants (such as nitrous oxide)</label></div>
+            <div class="col-sm-3"><label for="in-daily">Daily</label> <input     id="in-daily" type="radio" name="inhal" value="daily"/></div>
+            <div class="col-sm-3"><label for="in-weekly">Weekly</label> <input   id="in-weekly" type="radio" name="inhal" value="weekly"/></div>
+            <div class="col-sm-3"><label for="in-monthly">Monthly</label> <input id="in-monthly" type="radio" name="inhal" value="weekly"/></div>
+            <div class="col-sm-3"><label for="in-never">Never</label> <input     id="in-never" type="radio" name="inhal" value="never" checked/></div>
+            <div class="prev">Previous Question</div><div class="next">Next Question</div>
+        </div>
+        <div class="form-row col-md-8 col-md-offset-2" >
+            <div><label class="form-label"><span>In the past year, how many times have you used</span> Herbs or synthetic drugs (such as salvia, "K2", or bath salts)</label></div>
+            <div class="col-sm-3"><label for="sn-daily">Daily</label> <input     id="sn-daily" type="radio" name="synth" value="daily"/></div>
+            <div class="col-sm-3"><label for="sn-weekly">Weekly</label> <input   id="sn-weekly" type="radio" name="synth" value="weekly"/></div>
+            <div class="col-sm-3"><label for="sn-monthly">Monthly</label> <input id="sn-monthly" type="radio" name="synth" value="weekly"/></div>
+            <div class="col-sm-3"><label for="sn-never">Never</label> <input     id="sn-never" type="radio" name="synth" value="never" checked/></div>
+            <div class="prev">Previous Question</div><div class="next">You're finished!</div>
+        </div>
+    </form>
+</div>
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+</body>
+</html>
